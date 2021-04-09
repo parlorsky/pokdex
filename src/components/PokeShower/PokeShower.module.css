@@ -1,0 +1,18 @@
+.sprites {
+    display: flex;
+}
+
+.sprites img {
+    width: 200px;
+    border: 1px black solid;
+}
+.sprites p {
+   padding-left: 50px;
+}
+
+.pokeName {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+
+}

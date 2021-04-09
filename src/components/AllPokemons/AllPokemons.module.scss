@@ -1,0 +1,49 @@
+
+.pokemon1{
+  display: block;
+  padding: 25px;
+  width: 1000px;
+  margin: 8px;
+  min-height: 3.06667em;
+    ul{
+      list-style-type: none;
+      margin: 0;
+
+    }
+    li{
+      display: flex;
+      align-items: center;
+        div{
+          width: 200px;
+          margin-bottom: 5px;
+          margin-top: 5px;
+          margin-right: 50px;
+
+        }
+        .types{
+          font-size: .85em;
+        }
+        .name{
+          font-size: 1em;
+        }
+        .abilities {
+          display: inline-block;
+          font-size: .75em;
+          margin-left: -70px;
+          margin-top: 5px;
+            ul{
+              list-style: none;
+              margin: 0px;
+              padding: 0;
+            }
+        }
+    }
+
+}
+.countable {
+  background-color: #222222;
+}
+
+.unCountable {
+  background-color: #1d1d1d ;
+}
