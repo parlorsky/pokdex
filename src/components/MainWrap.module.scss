@@ -12,6 +12,24 @@
   text-align: justify;
 }
 
+.menuItem {
+  img {
+    width: 60px;
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  b {
+    padding: 0px;
+    @include font(15px, Verdana, 700, white);
+    &:hover {
+      cursor: default;
+    }
+  }
+  opacity: 0.7;
+  text-align: center;
+}
+
 .mainWrap {
   height: 100%;
   left: 0;
@@ -36,8 +54,8 @@
 }
 
 .leftMenuButton:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
 
 .leftMenu {
   @include bgcl(#56579f);
@@ -53,22 +71,4 @@
   p {
     @include font(20px, Verdana, 700, white);
   }
-}
-
-.menuItem {
-  img {
-    width: 60px;
-    padding-top: 20px;
-    display: block;
-    margin: 0 auto;
-  }
-  b {
-    padding: 0px;
-    @include font(15px, Verdana, 700, white);
-    &:hover {
-      cursor: default;
-    }
-  }
-  opacity: 70% !important;
-  text-align: center;
 }

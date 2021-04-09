@@ -7,7 +7,30 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  opacity: 70%
+}
+.menuItem {
+  opacity: 0.7;
+  text-align: center;
+}
+
+.menuItem img {
+  width: 60px;
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.menuItem b {
+  padding: 0px;
+  font-size: 15px;
+  font-family: Verdana;
+  font-weight: 700;
+  color: white;
+  text-align: justify;
+}
+
+.menuItem b:hover {
+  cursor: default;
 }
 
 .mainContent {
@@ -52,28 +75,5 @@
   text-align: justify;
 }
 
-.menuItem {
-  opacity: 70% !important;
-  text-align: center;
-}
 
-.menuItem img {
-  width: 60px;
-  padding-top: 20px;
-  display: block;
-  margin: 0 auto;
-}
-
-.menuItem b {
-  padding: 0px;
-  font-size: 15px;
-  font-family: Verdana;
-  font-weight: 700;
-  color: white;
-  text-align: justify;
-}
-
-.menuItem b:hover {
-  cursor: default;
-}
 /*# sourceMappingURL=MainWrap.module.css.map */
