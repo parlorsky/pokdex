@@ -1,9 +1,16 @@
 
+.Title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  
+}
+
 .pokemon1{
   display: block;
   padding: 25px;
   width: 1000px;
   margin: 8px;
+  padding-top: 0px;
   min-height: 3.06667em;
     ul{
       list-style-type: none;

@@ -17,6 +17,7 @@ const PokeSearch = () => {
     })
 
     }, []) 
+    
     useEffect(() => {
         setSearchItem(pokeList.filter(pokemons => pokemons.includes(currentInputValue)))
     }, [currentInputValue])
