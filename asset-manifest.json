@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pokdex/static/css/main.f242a5f6.chunk.css",
-    "main.js": "/pokdex/static/js/main.f6ccfba4.chunk.js",
-    "main.js.map": "/pokdex/static/js/main.f6ccfba4.chunk.js.map",
+    "main.js": "/pokdex/static/js/main.16c16fbb.chunk.js",
+    "main.js.map": "/pokdex/static/js/main.16c16fbb.chunk.js.map",
     "runtime-main.js": "/pokdex/static/js/runtime-main.f412b544.js",
     "runtime-main.js.map": "/pokdex/static/js/runtime-main.f412b544.js.map",
     "static/js/2.d6a1665d.chunk.js": "/pokdex/static/js/2.d6a1665d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f412b544.js",
     "static/js/2.d6a1665d.chunk.js",
     "static/css/main.f242a5f6.chunk.css",
-    "static/js/main.f6ccfba4.chunk.js"
+    "static/js/main.16c16fbb.chunk.js"
   ]
 }
