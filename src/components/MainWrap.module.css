@@ -52,7 +52,7 @@
 }
 
 .menuItem {
-  opacity: 70%;
+  opacity: 70% !important;
   text-align: center;
 }
 
