@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./AllPokemons.module.css";
+import s from "./AllPokemons.module.scss";
 
 const AllPokemons = ({ pokemons }) => {
   return (
