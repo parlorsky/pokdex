@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ApolloProvider from '@apollo/client';
+import ApolloClient from 'apollo-boost'
 
+
+const client = new ApolloClient({
+    uri: "https://pokeapi.co/api/v2/pokemon/"
+});
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <ApolloProvider client={client}>
+    <App/>
+    </ApolloProvider>
+    , document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
