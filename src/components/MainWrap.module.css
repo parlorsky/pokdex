@@ -1,0 +1,78 @@
+.mainWrap {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainContent {
+  background-color: #222222;
+  width: 95%;
+  font-size: 100%;
+  font-family: Verdana;
+  font-weight: 700;
+  color: #ccc;
+  text-align: justify;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.leftMenu {
+  background-color: #56579f;
+  width: 120px;
+  -webkit-box-shadow: 5px 0px 5px -1px rgba(0, 0, 0, 0.75);
+          box-shadow: 5px 0px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+.leftMenuButton {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.leftMenuButton:hover {
+    cursor: pointer;
+  }
+
+.menuLogo img {
+  width: 120px;
+  padding-top: 20px;
+}
+
+.menuLogo p {
+  font-size: 20px;
+  font-family: Verdana;
+  font-weight: 700;
+  color: white;
+  text-align: justify;
+}
+
+.menuItem {
+  opacity: 70%;
+  text-align: center;
+}
+
+.menuItem img {
+  width: 60px;
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.menuItem b {
+  padding: 0px;
+  font-size: 15px;
+  font-family: Verdana;
+  font-weight: 700;
+  color: white;
+  text-align: justify;
+}
+
+.menuItem b:hover {
+  cursor: default;
+}
+/*# sourceMappingURL=MainWrap.module.css.map */
